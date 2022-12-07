@@ -14,14 +14,13 @@ for (let i = 1; i <= 100; i++){
     console.log('Fizz');
     }
 
-    if ( i % 5 === 0 ){ 
+    else if( i % 5 === 0 ) 
     console.log('Buzz');
-    }
 
-    if(i % 3 === 0 || i % 5 === 0 ){
-    console.log('Fizzbuzz');
+    else( i % 3 === 0 || i % 5 === 0)
+    
 
-    }
+   
     
    
     
