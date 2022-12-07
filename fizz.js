@@ -7,22 +7,32 @@ console.log('JS OK')
 5)applico delle classi ad ogni condizione
 6)stampo in pagina */
 
+const number = document. getElementById('number')
+const Fizz = document. getElementById('Fizz')
+const Buzz = document. getElementById('Buzz')
+const BuzzFizz = document. getElementById('BuzzFizz')
+
+
 for (let i = 1; i <= 100; i++){
    
 
-    if ( i % 3 === 0 ){ 
+    if ( i % 3 === 0 ){   
+    Fizz.innerText += (' Fizz') 
     console.log('Fizz');
     }
 
     else if ( i % 5 === 0 ){ 
+    Buzz.innerText += (' Buzz')
     console.log('Buzz');
     }
 
     else if ( i % 3 === 0 && i % 5 === 0){
-    console.log('Fizzbuzz');
+    BuzzFizz.innerText += (' Buzz')
+    console.log(' Fizzbuzz');
     }
 
     else {
+        number.innerText += (i)
         console.log(i)
     }
 
