@@ -7,5 +7,12 @@ console.log('JS OK')
 5)applico delle classi ad ogni condizione
 6)stampo in pagina */
 
-for (let i = 1; i <= 100; i++);
-console.log(i);
+for (let i = 1; i <= 100; i++){
+    console.log(i);
+
+    if ( i===3 );
+    console.log('Fizz');
+        
+    
+};
+
