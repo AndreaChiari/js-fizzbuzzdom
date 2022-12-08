@@ -13,8 +13,12 @@ const number = document. getElementById('number')
 
 for (let i = 1; i <= 100; i++){
    
+    if ( (i % 3 === 0) && (i % 5 === 0) ){
+    number.innerText += ('blaaaaaaaaaaaaaaa')
+    console.log('blaaaaaaaaaaaaa');
+    }
 
-    if ( i % 3 === 0 ){   
+    else if ( i % 3 === 0 ){   
     number.innerText += (' Fizz') 
     console.log('Fizz');
     }
@@ -24,10 +28,6 @@ for (let i = 1; i <= 100; i++){
     console.log('Buzz');
     }
 
-    else if ( i % 3 === 0 && i % 5 === 0){
-    number.innerText += (' Buzz')
-    console.log(' Fizzbuzz');
-    }
 
     else {
         number.innerText += (i)
