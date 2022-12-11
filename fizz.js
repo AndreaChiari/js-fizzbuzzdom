@@ -7,31 +7,35 @@ console.log('JS OK')
 5)applico delle classi ad ogni condizione
 6)stampo in pagina */
 
-const number = document. getElementById('number')
 
+
+const MainContainer = document.createElement('div');
+MainContainer.classList.add('container-fluid');
+console.log(MainContainer)
 
 
 for (let i = 1; i <= 100; i++){
-   
+    
     if ( (i % 3 === 0) && (i % 5 === 0) ){
-    number.innerText += ('blaaaaaaaaaaaaaaa')
-    console.log('blaaaaaaaaaaaaa');
+        
+        
+        
+        
+        
     }
-
+    
     else if ( i % 3 === 0 ){   
-    number.innerText += (' Fizz') 
-    console.log('Fizz');
+        
+        
     }
-
+    
     else if ( i % 5 === 0 ){ 
-    number.innerText += (' Buzz')
-    console.log('Buzz');
+        
     }
 
 
     else {
-        number.innerText += (i)
-        console.log(i)
+       
     }
 
    
